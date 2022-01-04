@@ -68,9 +68,12 @@ h1.what_is_i {
 }
 
 @media screen and (max-width: 768px){
+    body.this {
+        overflow: hidden;
+    }
     .header-menu {
         width: 100%;
-        height: 500px;
+        height: 800px;
         background: #149b6e;
         transition-duration: 0.35s;
         position: relative;
